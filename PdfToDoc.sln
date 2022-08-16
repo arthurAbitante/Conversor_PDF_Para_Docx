@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfToDoc", "PdfToDoc\PdfToDoc.csproj", "{F3A85D33-8D9D-4321-93CA-41DC8B8929AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3A85D33-8D9D-4321-93CA-41DC8B8929AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A85D33-8D9D-4321-93CA-41DC8B8929AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A85D33-8D9D-4321-93CA-41DC8B8929AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A85D33-8D9D-4321-93CA-41DC8B8929AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4D00A73-EC09-4347-8DCC-0AE1DC377D1A}
+	EndGlobalSection
+EndGlobal

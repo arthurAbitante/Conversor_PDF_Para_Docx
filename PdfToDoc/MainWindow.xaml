@@ -1,0 +1,17 @@
+﻿<Window x:Class="PdfToDoc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PdfToDoc"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="290.486" Width="582.128">
+    <Grid Margin="0,0,0,4">
+        <TextBox Name="caminho" HorizontalAlignment="Left" Height="72" Margin="173,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250"/>
+        <Button Content="..." HorizontalAlignment="Left" Margin="428,69,0,0" VerticalAlignment="Top" Width="32" Click="Button_Click_1" Height="27"/>
+        <Button Content="Converter" HorizontalAlignment="Left" Margin="173,206,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label Content="" Name="mensagem" HorizontalAlignment="Left" Margin="264,206,0,0" VerticalAlignment="Top" Height="37" Width="159"/>
+        <Label Content="Caminho" HorizontalAlignment="Left" Margin="110,70,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.352,-0.118"/>
+
+    </Grid>
+</Window>
